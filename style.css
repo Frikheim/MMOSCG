@@ -215,7 +215,7 @@ li a:hover{
 	padding: 0.5em;
 	color:blue;
 	font-family:sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	border: solid black 1px;
 	border-radius: 20px 0px 20px 0px;
 	
@@ -277,10 +277,10 @@ li a:hover{
 /* styling for app pages */
 
 .appgrid {
-	margin: 5%;
+	margin: 2%;
 	display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    grid-gap: 1em;	
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 0;	
 
 }
 
@@ -295,7 +295,6 @@ li a:hover{
 	
 	/* n x viewport height/width */
 	Height: auto;
-	
 	
 	/* setter box grense for innhold osv */
 	box-sizing: border-box;
@@ -324,11 +323,22 @@ li a:hover{
 .content, .app a:hover{
 	margin: 10px;
 	/*padding top makes sure the size does not grow in height*/
-	padding-top:5px;
+	padding-top: 5px;
 	border-top: 10px solid rgb(63, 37, 124);
 	
-	
 	transition: all ease-in-out 300ms;
+}
+
+a {
+	color: black;
+	font-family: verdana;
+	font-feature-settings: normal;
+}
+
+p {
+
+	font-family: verdana;
+	font-feature-settings: normal;
 }
 
 
