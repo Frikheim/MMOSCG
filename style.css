@@ -130,7 +130,7 @@ nav li {
 
 
 
-ul {
+nav ul {
 	padding:0;
 	margin:0;
 	position: relative;
@@ -140,7 +140,7 @@ ul {
 }
 
 
-li  {	
+nav li  {	
 	color: white;
 	list-style: none;
 	text-align: center;
@@ -149,31 +149,20 @@ li  {
 	text-decoration: none;
 	text-align: center;
 	padding: 10px 10px;
-	
-	
-	
-
-}
-
-a{
-	padding-top: 15px;
-	
-	float:left;
-	display: inline-block;
-	text-decoration: none;
-	position: relative;
-	
 }
 
 
-li a{
-	margin: 10px;
+nav li a{
 	display: inline-block;
 	height: 60px;
 	width: 90px;
+    padding-top: 5px;
+	float:left;
+	text-decoration: none;
+	position: relative;
 }
 
-li a:hover{
+nav li a:hover{
 	margin: 10px;
 	/*padding top makes sure the size does not grow in height*/
 	padding-top:5px;
@@ -283,14 +272,43 @@ li a:hover{
 }	
 
 .footer {
-color: rgb(84, 80, 80);
-font-family:sans-serif;
-font-size: 18px;
-border: solid black 2px;
-border-radius: 10px 0px 10px 0px;
-height: auto;
-text-transform: uppercase;
+    height: 100px;
+    width: auto;
+    font-size: 18px;
+    border: solid black 2px;
+    background-color: rgb(161, 204, 224);
+    border-radius: 5px;
+    
+    
 }
+
+.unordered li {
+    background-color: inherit;
+    color: black;
+    height: 45px;
+    display: inline-block;
+    margin-right: 15px;
+    float: left;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.unordered li a:hover{
+	margin: 15px;
+	padding-top:5px;
+	border-top: 10px solid;
+	background-color: rgb(68, 96, 122);
+	border-radius: 5px;
+	
+	transition: all ease-in-out 300ms;
+}
+
+.unordered li a:visited{
+    color: black;
+}
+
 
 /* H1 is only for testing */
 h1 {
