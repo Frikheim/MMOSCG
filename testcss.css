@@ -129,6 +129,7 @@ hr {
 
 h3 {
     float: center;
+    margin-top: 10px;
 }
 
 p {
@@ -214,4 +215,31 @@ button {
 hr {
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.box {
+    background-color: #EAE3EA;
+    width: 65%;
+    height: 50%;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.7;
+
+}
+
+.box1 {
+    background-color: #EAE3EA;
+    width: 65%;
+    height: 50%;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.7;
+}
+
+.box1 p {
+    font-size: 115%;
 }
