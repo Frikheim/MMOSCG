@@ -1,61 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="testcss.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Madrasa</title>
 </head>
 <body>
 
     <nav><b>
+            
+                <button class="dropdown">
+                            <span align="left">Meny</span>
+                            <div class="dropdown-content">
+                            <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <hr>
+                            <li><a href="./hoved.html">About the app</a></li>
+                            </ul>
+                            </div>
+                </button>
             <ul>
-                <li><b><a href="./hoved.html">Hoved side</b></a></li>
-                <li><b><a href="#problem">Problem</b></a></li>
-                <li><b><a href="#solution">Solution</b></a></li>
-                <li><b><a href="#aboutapp">About this app</b></a></li>
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#aboutapp"class="aboutapp">About the app</a></li>
                 
             </ul>
+        </b>
         </nav>
     
        
         <header>
         <div class="bakgrunnh">
-            <img src="header.jpg" class="header">
+            <img src="madrasa.jpg" class="header">
             </div>
             </header>
         
         <center class="container">
         <hr>
+        <div class="box">
         <p>Education is a basic human right, enshrined in the 1989 Convention on the Rights of the Child and the 1951 Refugee Convention.
 
         Three million Syrian children are out of school because of the conflict in Syria. Half of the refugee children are not receiving any form of education. Schools in Syria are under attack every day, and every day parents keep their children home. 
 
         We have developed an app to help these children. An app that can be used anywhere around the world on most mobile phones today. So it can reach these children where ever they are.</p>
+        </div>
         <hr>
         
                      
         <div class= "bilder" align="center" >
-            <img class="bilde" src="ruzired.jpg" alt="UZI">
-            <img class="bilde" src="rlambo.jpg" alt="lambo">
-            <img class="bilde" src="rjordan11.jpg" alt= "win like 96">
-            <img class="bilde" src="rworld.jpg" alt = "world"></div>
+            <img class="bilde" src="./ruzired.jpg" alt="UZI">
+            <img class="bilde" src="./rlambo.jpg" alt="lambo">
+            <img class="bilde" src="./rjordan11.jpg" alt= "win like 96">
+            <img class="bilde" src="./rworld.jpg" alt = "world"></div>
             <hr>
         
-            
-        <h3 id="problem">Problem</h3>    
-        <p>sammendrag av Problem her
-        </p>
-        <hr>
+            <div class="box">
+            <h3><a href="./hoved.html#problem"id="problem">Problem</a></h3>    
+            <p>Although the Syrian conflict is one of the biggest humanitarian crises in recent history, it is an educational crisis as well...<a href="./hoved.html#problem" class="readmore">Read More</a><br>
+            -------------------------------------
+            </p>
+            </div>
         
             
-        <h3 id="solution">Solution</h3>    
-        <p>We have developed the Madrasa app to help solve the child educational crisis in Syria. An app is an ideal tool because of the high level of smartphone ownership among syrians.</p>
-        <hr>
+        <div class="box">
+            <h3><a href="./hoved.html#solution"id="solution">Solution</a></h3>    
+            <p>We have developed the app to help solve the child educational crisis in Syria...<a href="./hoved#solution" class="readmore">Read More</a><br>
+            -------------------------------------
+            </p>
+        </div>
         
-        <h3 id="aboutapp">About the app</h3>
-        <p>Sammendrag av About app her</p>
+        <div class="box">
+        <h3><a href="./hoved.html#aboutapp"id="aboutapp">About the app</a></h3>
+            <p>During the construction of this app our main focus was, neither on the fun of learning nor the actual learning itself, but rather on the children and their equal opportunity to make it in life...<a href="./hoved#aboutapp" class=readmore>Read More</a><br>
+                -------------------------------------
+            </p>
+        </div>
+            
         <hr>
             
         </center>
